@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #1e1e1e;
+}
+
+.contact-box {
+  width: 800px;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+.contact-box {
+  width: 800px;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+
+textarea {
+  width: 100%;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border-radius: 2px;
+  background-color: #ff8c00;
+  position: relative;
+  transition: all 0.3s;
+  color: #fff;
+  z-index: 2;
+}
+
+.submit:hover,
+.submit:active {
+  color: #ff8c00;
+}
+
+.submit:after {
+  width: 0%;
+  height: 100%;
+  border-radius: 2px;
+  border: solid 2px #ff8c00;
+  background-color: #fff;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  z-index: -2;
+}
+
+.submit:hover:after,
+.submit:active:after {
+  width: 100%;
+  border: solid 2px #ff8c00;
+}

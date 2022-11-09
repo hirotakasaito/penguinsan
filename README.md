@@ -1,2 +1,2 @@
-# penguinsan
-Penguinsan is wordpress theme for blog
+# simple wordpress theme
+This is wordpress theme for blog
